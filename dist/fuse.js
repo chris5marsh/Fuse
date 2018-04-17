@@ -10,7 +10,7 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define("Fuse", [], factory);
+		define([], factory);
 	else if(typeof exports === 'object')
 		exports["Fuse"] = factory();
 	else

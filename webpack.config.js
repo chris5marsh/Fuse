@@ -39,7 +39,7 @@ const config = {
     filename: outputFile,
     library: 'Fuse',
     libraryTarget: 'umd',
-    umdNamedDefine: true
+    umdNamedDefine: false
   },
   module: {
     loaders: [{
